@@ -52,6 +52,18 @@
                     </archive>
                 </configuration>
             </plugin>
+            <plugin>
+                  <groupId>eu.stamp-project</groupId>
+                  <artifactId>pitmp-maven-plugin</artifactId>
+                  <version>1.2.0</version>
+                  <dependencies>
+                      <dependency>
+                          <groupId>org.pitest</groupId>
+                          <artifactId>pitest-maven</artifactId>
+                          <version>1.4.0</version>
+                      </dependency>
+                  </dependencies>
+              </plugin>
         </plugins>
     </build>
 </project>
